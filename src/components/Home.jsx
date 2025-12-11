@@ -16,7 +16,7 @@ import {
 const Home1 = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const logout = () => {
     Cookies.remove("jwt_token");
