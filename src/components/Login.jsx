@@ -35,6 +35,9 @@ const Login = () => {
       setErrorMsg("Network error, try again.");
     }
   };
+  if (Cookies.get("jwt_token")) {
+    return <Navigate to="/" />;
+  }
 
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center p-4">
