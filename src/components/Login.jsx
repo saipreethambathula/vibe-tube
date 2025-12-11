@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Eye, EyeOff, Play } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import Logo from "../assets/logo.png";
 
